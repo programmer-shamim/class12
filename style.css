@@ -1,0 +1,218 @@
+.wrapper{
+    padding:0px 50px 0px 50px;
+}
+
+.div1{
+    background-color: black;
+    color: wheat;
+    padding: 30px;
+    text-align: center;
+}
+.div1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.div1 a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*dropdown1*/
+.div1 ul li{
+    position: relative;
+}
+.div1 ul li ul{
+    position: absolute;
+    left: 0;
+    top: 166%;
+    width: 300px;
+    background-color: black;
+    padding: 0;
+    border-top: 5px solid #1C89D3;
+}
+.div1 ul li ul li{
+    display: block;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid #292927;
+}
+.div1 ul li ul li:hover{
+    background-color:#1C89D3;
+}
+.div1 ul li ul li a{
+    display: block;
+    transition: .25s all ease;
+}
+.div1 ul li ul li a:hover{
+    margin-right: 10px;
+}
+
+.div1 ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s all ease;
+}
+.div1 ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+/*dropdown2*/
+.div1 li ul li ul{
+   
+   display: none;
+   transition: 1s all ease;
+   
+}
+.div1 li ul li:hover ul{
+    display: block;
+    left: 300px;
+    top: 0;
+}
+
+.div2{
+    background-image: url(img/young-mens.jpg);
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.div2 h1{
+    
+    background-color: #fff;
+    display: inline-block;
+    padding:5px 15px;
+    margin-top: 350px;
+    
+}
+.div2 h3{
+    background-color: #fff;
+    margin: 10px 10px 20px 10px;
+}
+.div2 p a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+   padding: 10px 20px;
+   font-weight: bold;
+}
+.div2 p:hover a{
+    background-color: white;
+    color: black;
+   font-weight: bold;
+   border: 1px solid red;
+}
+.div3{
+    text-align: center;
+    box-shadow: 0px 0px 20px wheat;
+  border-top: 1px solid rgb(214, 205, 205);
+  border-right: 1px solid rgb(214, 205, 205);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 20px;
+}
+.div3 ul li{
+    list-style-position: outside;
+}
+.div4{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px wheat;
+    margin-bottom: 30px;
+}
+.div4 ul{
+    list-style-position: inside;
+}
+.div5{
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 50px;
+}
+.email{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid red;
+    
+}
+.submit{
+    padding: 10px 20px 10px 20px;
+    background-color:red;
+    margin-left: 0;
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: -4px;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+.div6{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.div6 h1{
+    text-align: center;
+}
+.div61{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.div61 ul{
+    list-style-type: lower-roman;
+}
+.div62{
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: disc;
+}
+.div62 ul{
+    list-style-type: square;
+}
+.div63{
+    display: inline-block;
+    margin-right: 20px;
+}
+.div63 ul{
+    list-style-type:lower-greek ;
+}
+.div7{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+
+}
+.div7 ul{
+    text-decoration: none; 
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+.div7 ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.div7 ul li a{
+    background-color: #5EA5FA;
+   padding: 10px;
+    color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: .5s all ease;
+    
+    
+}
+.div7 ul li:hover a{
+    background-color: yellow;
+}
+.test{
+    width: 20px;
+    height: 20px;
+}
